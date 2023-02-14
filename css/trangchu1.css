@@ -80,10 +80,46 @@
   background-size: cover;
 }
 
+.wrapper-img-under-logo{
+  width: 100vw;
+  height: 540px;
+  overflow: hidden;
+}
 .img-under-logo{
   width: 100vw;
   height: 540px;
   background-color: red;
   background-image: url(../image/background-image.jpg);
   background-size: cover;
+  transition: 0.4s;
+}
+
+.img-under-logo:hover{
+  scale: 1.05;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+.main-best-seller{
+  width: 100vw;
+  height: 200px;
+  background-color: red;
+}
+
+.text-in-main-best-seller{
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 20px auto;
+}
+
+nav{
+  overflow: hidden;
+}
+#hinh-anh{
+  overflow: hidden;
+}
+#best-seller{
+  overflow: hidden;
 }
